@@ -1,0 +1,25 @@
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+
+public class study
+{
+	public static void main(String[] args) 
+	{
+		HashMap<String, String> phoneBook = new HashMap<String, String>();
+		
+		phoneBook.put("±Ë¡ÿ»Ò", "010-2200-1646");
+		phoneBook.put("¿Ãº±øı", "010-2344-2341");
+		phoneBook.put("√÷øÎºÆ", "010-3313-2342");
+		
+		Set<String> keySet = phoneBook.keySet();
+		Iterator<String> it = keySet.iterator();
+		
+		while(it.hasNext())
+		{
+			String key = it.next();
+			
+			System.out.println(key + " : " + phoneBook.get(key));
+		}
+	}
+}

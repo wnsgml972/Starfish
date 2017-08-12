@@ -1,0 +1,15 @@
+
+import javax.swing.*;
+
+public class study
+{
+	public study()
+	{
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		new study();
+	}
+}
