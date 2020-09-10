@@ -2,6 +2,12 @@
 
 Starfish concept keyboard game
 
+## Quick Start
+
+~~~cmd
+java -jar /TypingGame/typingGame.jar
+~~~
+
 ## Demo
 
 ### Intro
